@@ -23,6 +23,7 @@ We release packages and upload them to PyPI (wheels and source tarballs).
 - https://pypi.python.org/pypi/certbot-dns-ovh
 - https://pypi.python.org/pypi/certbot-dns-rfc2136
 - https://pypi.python.org/pypi/certbot-dns-route53
+- https://pypi.python.org/pypi/certbot-dns-yandex
 
 The following scripts are used in the process:
 

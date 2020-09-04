@@ -60,7 +60,7 @@ class Authenticator(dns_common.DNSAuthenticator):
 
 class _YandexLexiconClient(dns_common_lexicon.LexiconClient):
     """
-    Encapsulates all communication with the CloudXNS via Lexicon.
+    Encapsulates all communication with the Yandex via Lexicon.
     """
 
     def __init__(self, auth_token, ttl):

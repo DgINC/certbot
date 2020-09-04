@@ -198,6 +198,7 @@ Once installed, you can find documentation on how to use each plugin at:
 * `certbot-dns-ovh <https://certbot-dns-ovh.readthedocs.io>`_
 * `certbot-dns-rfc2136 <https://certbot-dns-rfc2136.readthedocs.io>`_
 * `certbot-dns-route53 <https://certbot-dns-route53.readthedocs.io>`_
+* `certbot-dns-yandex <https://certbot-dns-yandex.readthedocs.io>`_
 
 Manual
 ------

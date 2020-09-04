@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# certbot-dns-cloudxns documentation build configuration file, created by
+# certbot-dns-yandex documentation build configuration file, created by
 # sphinx-quickstart on Wed May 10 16:05:50 2017.
 #
 # This file is execfile()d with the current directory set to its

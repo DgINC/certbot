@@ -30,6 +30,7 @@ export CERTBOT_PLUGINS=(
     "dns-gehirn"
     "dns-linode"
     "dns-sakuracloud"
+    "dns-yandex"
 )
 
 # Parses the requested architecture string and sets ALL_REQUESTED_ARCH to

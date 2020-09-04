@@ -1,4 +1,4 @@
-"""Tests for certbot_dns_cloudxns._internal.dns_cloudxns."""
+"""Tests for certbot_dns_yandex._internal.dns_yandex."""
 
 import unittest
 
@@ -39,7 +39,7 @@ class AuthenticatorTest(test_util.TempDirTestCase,
         self.auth = Authenticator(self.config, "yandex")
 
         self.mock_client = mock.MagicMock()
-        # _get_cloudxns_client | pylint: disable=protected-access
+        # _get_yandex_client | pylint: disable=protected-access
         self.auth._get_yandex_client = mock.MagicMock(return_value=self.mock_client)
 
 
