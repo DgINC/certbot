@@ -18,9 +18,7 @@ DOMAIN_NOT_FOUND = Exception('No domain found')
 GENERIC_ERROR = RequestException
 LOGIN_ERROR = HTTPError('400 Client Error: ...')
 
-API_KEY = 'foo'
-SECRET = 'bar'
-
+AUTH_TOKEN = 'foobar'
 
 class AuthenticatorTest(test_util.TempDirTestCase,
                         dns_test_common_lexicon.BaseLexiconAuthenticatorTest):
@@ -48,7 +46,7 @@ class YandexLexiconClientTest(unittest.TestCase, dns_test_common_lexicon.BaseLex
     def setUp(self):
         from certbot_dns_yandex._internal.dns_yandex import _YandexLexiconClient
 
-        self.client = _YandexLexiconClient(API_KEY, SECRET, 0)
+        self.client = _YandexLexiconClient(AUTH_TOKEN, 0)
 
         self.provider_mock = mock.MagicMock()
         self.client.provider = self.provider_mock
